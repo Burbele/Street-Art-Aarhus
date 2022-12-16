@@ -1,0 +1,91 @@
+<!-- Street Art Aarhus Landing Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Street Art Aarhus</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Connecting Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <!-- Connecting Source For Icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+    
+<body>
+<!-- Header Start --> 
+    <section class="header">
+        <nav> 
+            <a href="index.html"><img src="images/LogoSAA.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- Adding Closing Icon And Adding JavaScript To Make It Interactive -->            
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                
+<!-- Navigation Panel Start -->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="artists.html">ARTISTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+<!-- Navigation Panel End -->
+                <!-- Adding Menu Icon And Adding JavaScript To Make It Interactive -->
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+<!-- Header End -->
+            
+<!-- Landing Page Content Start-->
+<div class="text-box">
+    <h1>Street Art in Aarhus</h1>
+    <p>We are bringing art and its audience closer together. Street art conveys a social or political message that provokes discussion and reaction.</p>
+    <a href="about.html" class="main-btn">Learn More About Us</a>
+ </div>        
+    </section>
+<!-- Landing Page Content End -->
+
+ <!-- Hidden Gems Content Start -->
+    <section class="artists">
+        <h1>Hidden Gems</h1>
+        <p>Aarhus is a town full of astonishing street art.</p>
+            
+        <div class="row">
+            <div class="artist-col">
+                <img src="images/Herbert Baglione IMG.png">
+                <div class="layer">
+                <a href="baglione.html"><h3>HERBERT BAGLIONE</h3></a>
+                </div>
+            </div>
+            <div class="artist-col">
+                <img src="images/Peter Grisk IMG.png">
+                <div class="layer">
+                <a href="grisk.html"><h3>PETER BIRK</h3></a>
+                </div>
+            </div>
+            <div class="artist-col">
+                <img src="images/Eske Toubourg IMG.png">
+                <div class="layer">
+                <a href="toubourg.html"><h3>ESKE TOUBORG</h3></a>
+                </div>
+            </div>
+    </section>
+<!-- Hidden Gems Content End -->
+            
+<!-- CTA Contact Us Start -->
+        <section class="CTA">
+            <h1>Would you like to promote your own Street Art<br>or Business in Aarhus?</h1>
+            <a href="contact.html" class="main-btn">CONTACT US</a>       
+        </section>
+<!-- CTA Contact Us End -->
+
+<!-- Footer Start -->
+<section class="footer">
+    <p>2022 Paulius Burba. All rights reserved.</p>
+</section>
+<!-- Footer End -->
+        
+<!-- Connecting JavaScript File -->
+<script src="main.js"></script>
+</body>
+</html>

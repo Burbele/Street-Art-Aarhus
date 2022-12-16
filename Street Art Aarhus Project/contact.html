@@ -1,0 +1,76 @@
+<!-- Contact Us Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Street Art Aarhus</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Connecting Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <!-- Connecting Source For Icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+    
+<body>
+<!-- Header Start --> 
+    <section class="sub-header">
+        <nav> 
+            <a href="index.html"><img src="images/LogoSAA.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- Adding Closing Icon And Adding JavaScript To Make It Interactive -->            
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                
+<!-- Navigation Panel Start -->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="artists.html">ARTISTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+<!-- Navigation Panel End -->
+                <!-- Adding Menu Icon And Adding JavaScript To Make It Interactive -->
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+<!-- Header End -->
+            <h1>Let's Collaborate</h1>
+    </section>
+
+<!-- Contact Us Content Start -->
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <span>
+                    <h2>Contact Us</h2>
+                    <p>Would you like to promote our own Street Art or Business in Aarhus? Fill out the form to the right and we'll contact you. Once your submission is reviewed and approved, a Street Art in Aarhus representative will help set up your advertising and apply the promotional links.</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+<!-- Form Start -->
+    <form action="form-handler.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="text" name="subject" placeholder="Enter your subject" required>
+        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+        <button type="submit" class="main-btn golden-btn">Send Message</button>
+    </form>
+    <!-- Form End -->
+        </div>
+    </div>   
+    </section>
+    <!-- Contact Us Content End -->
+
+<!-- Footer Start -->
+<section class="footer">
+    <p>2022 Paulius Burba. All rights reserved.</p>
+</section>
+<!-- Footer End -->
+    
+    <!-- Connecting JavaScript File -->
+    <script src="main.js"></script>
+    </body>
+    </html>
