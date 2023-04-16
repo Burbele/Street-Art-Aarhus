@@ -7,3 +7,6 @@ The website presents and conveys the full experience of the hidden places. The s
 I created content based on the needs of the target group when it comes to the chosen places. The site is considered as a marketing initiative about secret places in the city of Aarhus.
 
 ![image](https://user-images.githubusercontent.com/112612492/232327780-7509be79-6e21-4905-a90b-d3478161495f.png)
+
+
+![naujasstyle](https://user-images.githubusercontent.com/112612492/232329585-891b768a-139c-41c1-8042-4a08ad373745.png)
